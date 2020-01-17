@@ -34,10 +34,10 @@ android {
                 '../app/src/main/java'
         ]
         main.jniLibs.srcDirs = [
-                '../thirdparty/platform/android'
+                '../src/thirdparty/platform/android'
         ]
         main.res.srcDirs = [
-                '../resources/platform/android/res'
+                '../src/resources/platform/android/res'
         ]
         main.manifest.source = "../src/platform/android/AndroidManifest.xml"
     }
