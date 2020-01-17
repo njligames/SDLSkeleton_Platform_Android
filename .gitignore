@@ -12,3 +12,8 @@
 /captures
 .externalNativeBuild
 .cxx
+
+
+resources/
+src/
+thirdparty/

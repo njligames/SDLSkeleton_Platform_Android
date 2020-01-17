@@ -24,9 +24,22 @@ android {
     }
     externalNativeBuild {
         cmake {
-            path "src/main/cpp/CMakeLists.txt"
+            path "../src/CMakeLists.txt"
             version "3.10.2"
         }
+    }
+    sourceSets {
+        main.java.srcDirs = [
+                '../src/platform/android',
+                '../app/src/main/java'
+        ]
+        main.jniLibs.srcDirs = [
+                '../thirdparty/platform/android'
+        ]
+        main.res.srcDirs = [
+                '../resources/platform/android/res'
+        ]
+        main.manifest.source = "../src/platform/android/AndroidManifest.xml"
     }
 }
 
