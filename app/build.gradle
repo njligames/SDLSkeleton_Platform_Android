@@ -31,13 +31,14 @@ android {
     sourceSets {
         main.java.srcDirs = [
                 '../src/platform/android',
+                '../src/platform/shared',
                 '../app/src/main/java'
         ]
         main.jniLibs.srcDirs = [
                 '../src/thirdparty/platform/android'
         ]
         main.res.srcDirs = [
-                '../src/resources/platform/android/res'
+                '../src/platform/resources/platform/android/res'
         ]
         main.manifest.source = "../src/platform/android/AndroidManifest.xml"
     }
