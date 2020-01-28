@@ -7,8 +7,11 @@
     <mapping directory="$PROJECT_DIR$/_thirdparty" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/resources" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/.build_macOS/platform/shared/test/googletest-prefix/src/googletest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/.build_macOS/platform/test/googletest-prefix/src/googletest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/build_macos/platform/test/googletest-prefix/src/googletest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/build_macos/test/googletest-prefix/src/googletest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/buildbot_macOS/platform/test/googletest-prefix/src/googletest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/resources" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/thirdparty" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/thirdparty" vcs="Git" />
