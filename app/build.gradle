@@ -30,18 +30,18 @@ android {
     }
     sourceSets {
         main.java.srcDirs = [
-                '../src/platform/android',
-                '../src/platform/shared',
+                '../src/platform/shared/platform/android',
+                '../src/platform/shared/cpp',
                 '../app/src/main/java'
         ]
         main.jniLibs.srcDirs = [
                 '../src/thirdparty/platform/android'
         ]
         main.res.srcDirs = [
-                '../src/platform/android/resources/res',
+                '../src/platform/shared/platform/android/resources/res',
                 '../src/platform/shared/resources/platform'
         ]
-        main.manifest.source = "../src/platform/android/AndroidManifest.xml"
+        main.manifest.source = "../src/platform/shared/platform/android/AndroidManifest.xml"
     }
 }
 
