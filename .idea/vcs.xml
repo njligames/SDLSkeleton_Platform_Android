@@ -5,8 +5,19 @@
     <mapping directory="$PROJECT_DIR$/_resources" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/_src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/_thirdparty" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/.cxx/cmake/debug/arm64-v8a/googletest-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/.cxx/cmake/debug/armeabi-v7a/googletest-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/.cxx/cmake/debug/x86/googletest-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/.cxx/cmake/debug/x86_64/googletest-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/.cxx/cmake/release/arm64-v8a/googletest-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/.cxx/cmake/release/armeabi-v7a/googletest-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/.cxx/cmake/release/x86/googletest-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app/.cxx/cmake/release/x86_64/googletest-src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/resources" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/.build_emscripten/googletest-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/.build_ios/googletest-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/.build_macOS/googletest-src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/.build_macOS/platform/platform/macos/test/googletest-prefix/src/googletest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/.build_macOS/platform/shared/platform/macos/test/googletest-prefix/src/googletest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/.build_macOS/platform/shared/test/googletest-prefix/src/googletest" vcs="Git" />
