@@ -1,1 +1,4 @@
 
+[submodule "src"]
+	path = src
+	url = https://github.com/njligames/SDLSkeleton_Source.git
