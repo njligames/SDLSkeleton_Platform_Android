@@ -34,6 +34,12 @@ jobs:
       run: |
         ./gradlew clean
         ./gradlew assembleRelease
+      
+    - name: Build with Gradle
+      run: |
+        ./gradlew clean
+        ./gradlew assembleRelease
+      if: always()
         
     - uses: actions/upload-artifact@v2
       with:
