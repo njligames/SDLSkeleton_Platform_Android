@@ -31,7 +31,15 @@ jobs:
       run: chmod +x gradlew
       
     - name: Build with Gradle
-      run: ./gradlew assembleRelease
+      run: |
+        ./gradlew clean
+        ./gradlew assembleRelease
+      
+    - name: Build with Gradle
+      run: |
+        ./gradlew clean
+        ./gradlew assembleRelease
+      if: always()
         
     - uses: actions/upload-artifact@v2
       with:
