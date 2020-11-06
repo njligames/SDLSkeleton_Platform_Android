@@ -25,6 +25,16 @@
     <mapping directory="$PROJECT_DIR$/src/.build_macOS/platform/shared/test/googletest-prefix/src/googletest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/.build_macOS/platform/test/googletest-prefix/src/googletest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/.build_macOS/src/platform/macos/test/googletest-prefix/src/googletest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/bin/.build_appletv/game-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/bin/.build_appletv/game-src/thirdparty" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/bin/.build_emscripten/game-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/bin/.build_emscripten/game-src/thirdparty" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/bin/.build_ios/game-build/googletest-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/bin/.build_ios/game-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/bin/.build_ios/game-src/thirdparty" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/bin/.build_linux/game-build/googletest-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/bin/.build_linux/game-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/bin/.build_linux/game-src/thirdparty" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/build_macos/platform/test/googletest-prefix/src/googletest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/build_macos/test/googletest-prefix/src/googletest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/buildbot_macOS/platform/test/googletest-prefix/src/googletest" vcs="Git" />
